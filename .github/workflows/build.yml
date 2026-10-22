@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   create-zip-files:
-    runs-on: bitrise-runner-999
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
         with:

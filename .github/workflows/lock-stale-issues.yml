@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   lock-stale-issues:
-    runs-on: bitrise-runner-999
+    runs-on: ubuntu-latest
 
     steps:
       - name: Lock issues inactive for over 3 months
