@@ -89,7 +89,7 @@ jobs:
   test-e2e-windows:
     runs-on: self-hosted-windows
     # We run this only on PRs, for pre-releases we run the full separate workflow
-    if: ${{ github.event_name == 'pull_request' }}
+    if: false  # no self-hosted-windows runner on this fork
     strategy:
       fail-fast: true
       max-parallel: 1
